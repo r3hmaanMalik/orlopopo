@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+  
+
+
+ <h1>Session #  <%= @agent_session %></h1> 
+  <h1>Agent: <%= @agent_info.first_name %></h1><br>
+<h2>Agent website link : <%= @agent_web.website_link %></h2>	<br>
+<br><br><br>
+<h2>Selected frequent Item set: </h2>
+<%= @sets.first.item if @sets%>
+<br><br><br>
+<h2>Availble Products for Recommendation Restults: </h2><%= @arr %>
+
+
